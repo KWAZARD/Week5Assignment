@@ -2,8 +2,9 @@
 
 public class UniversityMember
 {
-    private string _name;
+   
     private string _memberId;
+    private string _name;
 
     
     protected List<string> ActionLog = new List<string>();
@@ -25,8 +26,8 @@ public class UniversityMember
 
     public UniversityMember(string memberId, string name)
     {
-
         this._name = name;
+        
         this._memberId = memberId;
         
     }
