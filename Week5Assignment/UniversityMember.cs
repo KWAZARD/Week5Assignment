@@ -26,7 +26,7 @@ public class UniversityMember
 
     public UniversityMember(string memberId, string name)
     {
-        this._name = name;
+        this.Name = name;
         
         this._memberId = memberId;
         
